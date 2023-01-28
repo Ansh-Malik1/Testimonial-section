@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow+semi+condensed',serif;
+}
+.container-large{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto
+}
+.container-small{
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    height: fit-content;
+}
+.b1{
+    width:55%;
+    margin:1.5rem;
+    height: fit-content;
+    font-size: 2vh;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.b2{
+    width:30%;
+    margin:1rem;
+    font-size:2vh;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.side-testimonial{
+    width:20%;
+    height: max-content;
+    font-size:2vh;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.sc{
+    display:flex;
+    align-items: center;
+}
+img{
+    margin-right:1rem;
+    border-radius:100%;
+}
+.testimonial1{
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:top right
+}
+.testimonial2{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+.testimonial4{
+    background-color:  hsl(219, 29%, 14%);
+    color: white;
+}
+h6{
+    opacity: 70%;
+    font-size: 0.8rem;
+}
+.quote{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.rest{
+    opacity: 70%;
+}
+.side-testimonial,.testimonial3{
+    box-shadow: 5px 7px 12px black;
+    background-color: white;
+}
+.t2-text{
+    white-space: nowrap;
+}
+@media(max-width:1024px){
+    .container-large,.container-small{
+        flex-direction: column;
+    }
+    .container-small{
+        width:100%
+    }
+    .b1,.b2,.side-testimonial{
+        width:90%;
+        margin:2rem auto;
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 3rem;
+    }
+    .quote{
+        font-size: 2.5rem;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    .t2-img{
+        width:10%;
+        margin-right:0.8rem
+    }
+    img{
+        width: 90%;
+        
+    }
+}
